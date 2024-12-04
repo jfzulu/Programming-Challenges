@@ -1,3 +1,12 @@
+/* Given a string, 
+a number m, 
+and a number n. 
+The string is modified in such a way that in each turn, 
+either m or n characters are selected from the end and added to the beginning of the string. 
+How many turns are required to get the original string back?
+
+ */
+
 function solution(cadena, m, n){
     let original = cadena;
     let turnos = 0;
